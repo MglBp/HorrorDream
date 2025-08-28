@@ -5,12 +5,10 @@ public class CameraFollow : MonoBehaviour
     public Transform player;
     public float minY;
     private float highestY;
-    private Vector3 initialPosition;
 
     void Start()
     {
-        initialPosition = transform.position;
-        highestY = player.position.y;
+        highestY = transform.position.y;
     }
 
     void Update()
