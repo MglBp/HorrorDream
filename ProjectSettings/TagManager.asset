@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - defeatscreen
+  - vitoriaScene
   layers:
   - Default
   - TransparentFX
